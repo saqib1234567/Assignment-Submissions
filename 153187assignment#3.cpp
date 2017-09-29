@@ -34,6 +34,7 @@ int main()
 
 		// not negative, add the value to
 		// the accumulator
+                nNums++;
 		nSum += nValue;
 	}
 
