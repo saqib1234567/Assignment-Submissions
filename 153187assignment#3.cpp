@@ -1,6 +1,7 @@
 // Read code below and try to identify any bug and then fix it. 
 #include<iostream>
 #include<conio.h>
+using namespace std;
 int main()
 {
 	cout << "This program will crash"
