@@ -90,15 +90,18 @@ cout<<x;
 }
 //"Why does it output 100?"
 //Ans: No need for the semi colon after the for loop
-7: Overstepping array boundaries:
-
+//7: Overstepping array boundaries
+#include <iostream>
+using namespace std;
+int main()
+{
 int array[10];
 //...
-for(int x=1; x<=10; x++)
+for(int x=0; x<=9; x++)
 cout<<array[x];
-
-"Why doesn't it output the correct values?"
-
+}
+//"Why doesn't it output the correct values?"
+//Ans: array index always start with zero 
 
 8: Integer division
 
