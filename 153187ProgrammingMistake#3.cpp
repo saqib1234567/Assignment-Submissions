@@ -8,19 +8,26 @@ cin>>x;
 cout<<x;
 }
 
-"Huh? Why do I get an error?"
- 
+//"Huh? Why do I get an error?"
+//Ans: you didn't inintialize the variable x 
 
-2: Uninitialized variables:
-
-int count;
+2:// Uninitialized variables:
+#include<iostream>
+using namespace std;
+int main ()
+{
+int count=40;
 while(count<100)
 {
+
 cout<<count;
+count++;
+}
+return 0;
 }
 
-"Why doesn't my program enter the while loop?"
-
+//"Why doesn't my program enter the while loop?"
+//Ans: you didnot initialise the count so that is why it was not entering the while loop.
 
 3: Setting a variable to an uninitialized value:
 
