@@ -1,4 +1,5 @@
 // Read code below and try to identify any bug and then fix it. 
+//added the header files
 #include<iostream>
 #include<conio.h>
 using namespace std;
@@ -6,7 +7,7 @@ int main()
 {
 	cout << "This program will crash"
 		 << endl;
-
+// initialize the sum with the 0
 	int nSum=0;
 	int nNums;
 
@@ -34,6 +35,7 @@ int main()
 
 		// not negative, add the value to
 		// the accumulator
+		// increenting for getting nNums to find average
                 nNums++;
 		nSum += nValue;
 	}
