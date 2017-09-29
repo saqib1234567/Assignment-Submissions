@@ -65,8 +65,10 @@ return 0;
 //"Why doesn't my loop ever end?"
 //Ans: because the operatoe used was not correct you used assignment operator instead of equal sign 
 
-5: Undeclared Functions:
-
+//5: Undeclared Functions:
+#include<iostream>
+using namespace std;
+void menu();
 int main()
 {
 menu();
@@ -76,8 +78,8 @@ void menu()
 //...
 }
 
-"Why do I get an error about menu being unknown?"
-
+//"Why do I get an error about menu being unknown?"
+//Ans: you were getting the error because you didn't declare the function before main
 6: Extra Semicolons:
 
 for(int x=0; x<100; x++);
