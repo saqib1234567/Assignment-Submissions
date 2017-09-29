@@ -142,14 +142,18 @@ printf("My pet is %s\n",myPet);
 //Besides the obviously bizarre choice of having a pet rat, do you notice anything? 
 //Ans it will print rat_Name because of strcpy
 
-10 Misusing the && and || operators:
-
+//10 Misusing the && and || operators:
+#include <iostream>
+using namespace std;
+int main()
+{
 int value;
 do
 {
 //...
 value=10;
-}while(!(value==10) || !(value==20))
+}while(!(value==10) && !(value==20))
+}
 
-"Huh? Even though value is 10 the program loops. Why?"
-
+//"Huh? Even though value is 10 the program loops. Why?"
+//Ans: for checking both the conditions we have to use &&.
