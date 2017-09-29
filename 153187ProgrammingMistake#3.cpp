@@ -80,13 +80,16 @@ void menu()
 
 //"Why do I get an error about menu being unknown?"
 //Ans: you were getting the error because you didn't declare the function before main
-6: Extra Semicolons:
-
-for(int x=0; x<100; x++);
+//6: Extra Semicolons:
+#include<iostream>
+using namespace std;
+int main()
+{
+for(int x=0; x<100; x++)
 cout<<x;
-
-"Why does it output 100?"
-
+}
+//"Why does it output 100?"
+//Ans: No need for the semi colon after the for loop
 7: Overstepping array boundaries:
 
 int array[10];
