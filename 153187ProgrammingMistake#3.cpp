@@ -29,19 +29,24 @@ return 0;
 //"Why doesn't my program enter the while loop?"
 //Ans: you didnot initialise the count so that is why it was not entering the while loop.
 
-3: Setting a variable to an uninitialized value:
-
+//3: Setting a variable to an uninitialized value:
+#include<iostream>
+using namespace std;
+int main()
+{
 int a, b;
-int sum=a+b;
+int sum=0;
 cout<<"Enter two numbers to add: ";
-cin>>b;
+cin>>a>>b;
+sum=a+b;
 cout<<"The sum is: "<<sum;
-When Run:
-Enter two numbers to add: 1 3
-The sum is: -1393
+}
+//When Run:
+//Enter two numbers to add: 1 3
+//The sum is: -1393
 
-"What's wrong with my program?"
-
+//"What's wrong with my program?"
+//Ans: the sum were used early now it will produce the write answer.
 4: Using a single equal sign to check equality:
 
 char x='Y';
