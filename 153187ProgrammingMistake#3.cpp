@@ -1,7 +1,9 @@
-1: Undeclared Variables:
-
+//1: Undeclared Variables:
+#include<iostream>
+using namespace std;
 int main()
 {
+int x;
 cin>>x;
 cout<<x;
 }
