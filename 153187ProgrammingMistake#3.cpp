@@ -103,12 +103,17 @@ cout<<array[x];
 //"Why doesn't it output the correct values?"
 //Ans: array index always start with zero 
 
-8: Integer division
-
-For example:
+//8: Integer division
+#include <iostream>
+using namespace std;
+int main()
+{
+//For example:
 double half = 1/2;
-
-This code sets half to 0 not 0.5! Why? Because 1 and 2 are integer constants.
+cout<<half;
+}
+//This code sets half to 0 not 0.5! Why? 
+//Ans:Because 1 and 2 are integer constants.
 
 
 9: Variable Name Styles
