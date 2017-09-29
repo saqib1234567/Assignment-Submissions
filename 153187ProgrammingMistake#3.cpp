@@ -116,9 +116,9 @@ cout<<half;
 //Ans:Because 1 and 2 are integer constants.
 
 
-9: Variable Name Styles
+//9: Variable Name Styles
 
-Take a look at the below program. Can you see anything wrong?
+//Take a look at the below program. Can you see anything wrong?
 
 #include <stdio.h>
 #include <string.h>
@@ -139,8 +139,8 @@ itsAge = ratage;
 printf("My pet is %s\n",myPet);
 }
 
-Besides the obviously bizarre choice of having a pet rat, do you notice anything? 
-
+//Besides the obviously bizarre choice of having a pet rat, do you notice anything? 
+//Ans it will print rat_Name because of strcpy
 
 10 Misusing the && and || operators:
 
