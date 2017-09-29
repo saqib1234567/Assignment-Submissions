@@ -47,18 +47,23 @@ cout<<"The sum is: "<<sum;
 
 //"What's wrong with my program?"
 //Ans: the sum were used early now it will produce the write answer.
-4: Using a single equal sign to check equality:
-
+//4: Using a single equal sign to check equality:
+#include<iostream>
+using namespace std;
+int main()
+{
 char x='Y';
-while(x='Y')
+while(x=='Y')
 {
 //...
 cout<<"Continue? (Y/N)";
 cin>>x;
 }
+return 0;
+}
 
-"Why doesn't my loop ever end?"
- 
+//"Why doesn't my loop ever end?"
+//Ans: because the operatoe used was not correct you used assignment operator instead of equal sign 
 
 5: Undeclared Functions:
 
