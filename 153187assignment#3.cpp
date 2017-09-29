@@ -7,7 +7,7 @@ int main()
 	cout << "This program will crash"
 		 << endl;
 
-	int nSum;
+	int nSum=0;
 	int nNums;
 
 	// accumulate input numbers until the
