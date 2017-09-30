@@ -16,7 +16,7 @@ cout<<x;
 using namespace std;
 int main ()
 {
-int count=40;
+int count=40<<endl;
 while(count<100)
 {
 
@@ -53,7 +53,7 @@ using namespace std;
 int main()
 {
 char x='Y';
-while(x=='Y')
+while(x=='Y' || x=='y')
 {
 //...
 cout<<"Continue? (Y/N)";
@@ -72,10 +72,11 @@ void menu();
 int main()
 {
 menu();
+  return 0;
 }
 void menu()
 {
-//...
+cout<<"hello";
 }
 
 //"Why do I get an error about menu being unknown?"
@@ -86,7 +87,7 @@ using namespace std;
 int main()
 {
 for(int x=0; x<100; x++)
-cout<<x;
+cout<<x<<endl;
 }
 //"Why does it output 100?"
 //Ans: No need for the semi colon after the for loop
@@ -98,7 +99,7 @@ int main()
 int array[10];
 //...
 for(int x=0; x<=9; x++)
-cout<<array[x];
+cout<<array[x]<<endl;
 }
 //"Why doesn't it output the correct values?"
 //Ans: array index always start with zero 
@@ -111,6 +112,8 @@ int main()
 //For example:
 double half = 1/2;
 cout<<half;
+float half1 = 1.0/2.0;
+cout<<half1;
 }
 //This code sets half to 0 not 0.5! Why? 
 //Ans:Because 1 and 2 are integer constants.
@@ -152,8 +155,9 @@ do
 {
 //...
 value=10;
+  cout<<"hello";
 }while(!(value==10) && !(value==20))
 }
 
 //"Huh? Even though value is 10 the program loops. Why?"
-//Ans: for checking both the conditions we have to use &&.
+//Ans: for checking both the conditions we have to use && operator.
